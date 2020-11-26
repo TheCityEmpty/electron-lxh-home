@@ -20,6 +20,7 @@
 
 <script>
 import SvgResolve from '@/components/utils/svg-resolve'
+
 export default {
   components: {
     SvgResolve
