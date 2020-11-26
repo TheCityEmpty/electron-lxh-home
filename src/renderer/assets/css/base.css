@@ -1,0 +1,147 @@
+/* css默认样式清除 */
+* {
+  font-size: 14px;
+  font-family: 'PingFangSC', 'Microsoft Yahei', sans-serif;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+ol,
+dl,
+dt,
+dd,
+div,
+span,
+a,
+b,
+i,
+strong,
+em,
+img,
+form,
+input,
+textarea,
+table,
+th,
+td,
+section {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  font-family: 'PingFangSC', 'Microsoft Yahei', sans-serif;
+  width: 100%;
+  height: 100%;
+  overflow: initial;
+}
+
+body {
+  color: #313131;
+  -webkit-overflow-scrolling: touch;
+  color: #515a6e;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  line-height: 100%;
+  font-weight: normal;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  color: #313131;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: #0459ab;
+  cursor: pointer;
+}
+
+i,
+em {
+  font-style: normal;
+}
+
+strong,
+b {
+  font-weight: normal;
+}
+
+input[type=button],
+input[type=submit],
+input[type=file],
+button {
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
+input,
+button,
+select,
+textarea {
+  resize: none;
+  outline: none;
+  border: none 0;
+  padding: 0;
+  font-family: 'PingFangSC', 'Microsoft Yahei', sans-serif;
+}
+
+input[type="search"] {
+  -webkit-appearance: none;
+}
+
+input::-webkit-search-cancel-button {
+  display: none;
+}
+
+li {
+  list-style: none;
+  vertical-align: top;
+}
+
+a img {
+  border: 0;
+}
+
+img {
+  vertical-align: middle;
+  width: 100%
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+table,
+tr,
+th,
+td {
+  padding: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
